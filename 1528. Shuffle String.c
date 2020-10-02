@@ -7,5 +7,6 @@ char * restoreString(char * s, int* indices, int indicesSize) {
 	for (i = 0; i<indicesSize; i++) {
 		s[i] = result[i];
 	}
+	
 	return s;
 }
