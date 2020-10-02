@@ -17,6 +17,5 @@ void bubble_sort(int arr[], int count) {
 int findKthLargest(int* nums, int numsSize, int k) {
 	bubble_sort(nums, numsSize);
 	int output = nums[numsSize - k];
-
 	return output;
 }
